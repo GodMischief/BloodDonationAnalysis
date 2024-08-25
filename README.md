@@ -31,8 +31,8 @@ The dataset used in this project includes information about previous blood donat
 - Testing Data: Used to evaluate the performance of the models.
 
 The data files are named as:
-- blood-train.csv
-- blood-test.csv
+- *blood-train.csv*
+- *blood-test.csv*
 
 # Feature Engineering
 
@@ -44,41 +44,41 @@ Features with high correlations were dropped to avoid multicollinearity. For exa
 # Modeling
 
 Multiple classification models were applied to the dataset:
-- Logistic Regression
-- Support Vector Machine (SVM)
-- Random Forest Classifier
-- Decision Tree Classifier
-- Multi-Layer Perceptron (MLP)
+- **Logistic Regression**
+- **Support Vector Machine (SVM)**
+- **Random Forest Classifier**
+- **Decision Tree Classifier**
+- **Multi-Layer Perceptron (MLP)**
   
 Each model was evaluated based on the following metrics:
-- Accuracy Score
-- ROC AUC Score
-- Confusion Matrix
+- **Accuracy Score**
+- **ROC AUC Score**
+- **Confusion Matrix**
 
 # Results
   
 The performance of each model was evaluated, and the results are as follows:
 
-- Logistic Regression:
-  - Accuracy Score: 0.7413793103448276
+- **Logistic Regression:**
+  - **Accuracy Score:** 0.7413793103448276
   - ROC AUC Score: 0.7955439056356488
 
-- Support Vector Machine:
-  - Accuracy Score: 0.7068965517241379
-  - ROC AUC Score: 0.8521739130434782
+- **Support Vector Machine:**
+  - **Accuracy Score:** 0.7068965517241379
+  - **ROC AUC Score:** 0.8521739130434782
 
-- Random Forest:
-  - Accuracy Score: 0.7155172413793104
-  - ROC AUC Score: 0.6512681159420289
+- **Random Forest:**
+  - **Accuracy Score:** 0.7155172413793104
+  - **ROC AUC Score:** 0.6512681159420289
 
-- Decision Tree:
-  - Accuracy Score: 0.7413793103448276
-  - ROC AUC Score: 0.6972327726532825
+- **Decision Tree:**
+  - **Accuracy Score:** 0.7413793103448276
+  - **ROC AUC Score:** 0.6972327726532825
   
-- MLP Classifier:
-  - Accuracy Score: 0.7413793103448276
-  - ROC AUC Score: 0.6972327726532825
+- **MLP Classifier:**
+  - **Accuracy Score:** 0.7413793103448276
+  - **ROC AUC Score:** 0.6972327726532825
 
 # Conclusion
 
-This project demonstrates the effectiveness of various machine learning models in predicting blood donation behavior. The results indicate that [insert the best performing model] performed the best, making it a strong candidate for real-world implementation in blood donation prediction systems.
+This project demonstrates the effectiveness of various machine learning models in predicting blood donation behavior. Based on the evaluation metrics, the Support Vector Machine (SVM) model stands out as the best model for predicting blood donation behavior in this dataset. Although its accuracy score of 0.7069 is slightly lower than some other models, its ROC AUC Score of 0.8522 indicates that it performs well in distinguishing between those who will donate and those who won't. This makes the SVM model a strong candidate for deployment in real-world blood donation prediction scenarios.
