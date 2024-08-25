@@ -21,9 +21,7 @@ Blood donation is a vital process that helps save countless lives. However, pred
 To get started with this project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/blood-donation-prediction.git
-cd blood-donation-prediction
-pip install -r requirements.txt
+git clone [https://github.com/your-username/blood-donation-prediction.git](https://github.com/GodMischief/BloodDonationAnalysis.git)
 ```
 
 ## Data
