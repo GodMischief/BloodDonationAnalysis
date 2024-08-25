@@ -62,7 +62,7 @@ Each model was evaluated based on the following metrics:
 The performance of each model was evaluated, and the results are as follows:
 
 - Logistic Regression:
-- - Accuracy Score: 0.7413793103448276
+  - Accuracy Score: 0.7413793103448276
 - - ROC AUC Score: 0.7955439056356488
 
 - Support Vector Machine:
