@@ -62,24 +62,24 @@ Each model was evaluated based on the following metrics:
 The performance of each model was evaluated, and the results are as follows:
 
 - Logistic Regression:
--- Accuracy Score: XX.XX
--- ROC AUC Score: XX.XX
+- - Accuracy Score: 0.7413793103448276
+- - ROC AUC Score: 0.7955439056356488
 
 - Support Vector Machine:
--- Accuracy Score: XX.XX
--- ROC AUC Score: XX.XX
+- - Accuracy Score: 0.7068965517241379
+- - ROC AUC Score: 0.8521739130434782
 
 - Random Forest:
--- Accuracy Score: XX.XX
--- ROC AUC Score: XX.XX
+- - Accuracy Score: 0.7155172413793104
+- - ROC AUC Score: 0.6512681159420289
 
 - Decision Tree:
--- Accuracy Score: XX.XX
--- ROC AUC Score: XX.XX
+- - Accuracy Score: 0.7413793103448276
+- - ROC AUC Score: 0.6972327726532825
   
 - MLP Classifier:
--- Accuracy Score: XX.XX
--- ROC AUC Score: XX.XX
+- - Accuracy Score: 0.7413793103448276
+- - ROC AUC Score: 0.6972327726532825
 
 # Conclusion
 
